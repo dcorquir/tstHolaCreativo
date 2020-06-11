@@ -51,5 +51,16 @@ export default {
     */
     extend (config, ctx) {
     }
-  }
+  },
+  dirs: [
+    '~/components/',
+    {
+      path: '~/components/mobile/',
+      prefix: 'mobile'
+    },
+    {
+      path: '~/components/web/',
+      prefix: 'web'
+    }
+  ]
 }
